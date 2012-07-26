@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+ 	android:layout_height="fill_parent"
+    android:background="@color/lightBlue">
+	<TableRow
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+		android:background="@color/black">
+   	 	<ImageView
+	        android:id="@+id/appIcon"
+	        android:layout_width="40dip"
+	        android:layout_height="40dip"
+	        android:contentDescription="@string/appIcon"
+	        android:padding="5dip"
+			android:src="@drawable/icon"/>
+		<TextView
+		 	android:id="@+id/currentLocationTextView"
+			android:gravity="center_vertical"
+			android:layout_width="wrap_content"
+			android:layout_weight="70"
+	        android:layout_height="40dip"
+	        android:textColor="@color/lightGrey"/>
+		<ImageButton
+	        android:id="@+id/menuIcon"
+	        android:layout_width="40dip"
+	        android:layout_height="40dip"
+	        android:contentDescription="@string/menuIcon"
+            android:gravity="right"
+	        android:padding="5dip"
+			android:src="@drawable/menu_search"
+   			android:onClick="showSearch"
+   			style="?android:attr/borderlessButtonStyle" />
+		<ImageButton
+	        android:id="@+id/searchIcon"
+	        android:layout_width="40dip"
+	        android:layout_height="40dip"
+	        android:contentDescription="@string/menuIcon"
+            android:gravity="right"
+	        android:padding="5dip"
+			android:src="@drawable/menu_icon"
+   			android:onClick="showMenu"
+   			style="?android:attr/borderlessButtonStyle" />
+    </TableRow>
+	<ListView
+	 	android:id="@+id/fileListView" 
+	 	android:layout_height="fill_parent"
+	 	android:layout_width="fill_parent"
+	    android:padding="1dip"
+	 	android:fadeScrollbars="true"
+	 	android:smoothScrollbar="true"
+	 	android:scrollbarStyle="outsideOverlay"/>
+</LinearLayout>

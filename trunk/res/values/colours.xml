@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="darkBlue">#336699</color>
+  <color name="darkGrey">#666666</color>
+  <color name="grey">#BBBBBB</color>
+  <color name="lightGrey">#CCCCCC</color>
+  <color name="white">#FFFFFF</color>
+  <color name="black">#000000</color>
+  <color name="red">#DD0000</color>
+  <color name="lightBlue">#6699BB</color>
+  <color name="chianti">#5B4145</color>
+  <color name="purpleAgate">#8E7578</color>
+  <color name="cobblestone">#BDA9AC</color>
+  <color name="gloaming">#DCC8CB</color>
+</resources>

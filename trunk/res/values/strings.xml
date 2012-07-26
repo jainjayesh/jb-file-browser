@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">JB File Browser</string>
+    <string name="new_folder">New Folder</string>
+    <string name="options">Options</string>
+    <string name="refresh">Refresh</string>
+    <string name="exit">Exit</string>
+    <string name="about">About</string>
+    <string name="search">Search</string>
+    <string name="fileIcon">File Icon</string>
+    <string name="aboutApp">JB File Browser is an App created to help learn more about Android.</string>
+    <string name="appIcon">Application Icon</string>
+    <string name="menuIcon">Menu</string>
+    <string name="paste">Paste</string>
+    <string name="checkCurrentDir">Search current directory only</string>
+</resources>

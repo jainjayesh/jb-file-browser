@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:background="@color/lightBlue">
+    
+    <ImageView
+        android:id="@+id/fileIcon"
+        android:layout_width="40dip"
+        android:layout_height="40dip"
+        android:contentDescription="@string/fileIcon"
+        android:padding="5dip" />
+
+    <TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:stretchColumns="1" >
+
+        <TextView
+            android:id="@+id/fileName"
+            android:maxLines="1"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TableRow>
+            <TextView
+                android:id="@+id/fileDateModified"
+                android:gravity="left"
+                android:textColor="@color/lightGrey"
+                android:textSize="13sp" />
+            
+            <TextView
+                android:id="@+id/fileSize"
+                android:layout_marginLeft="28dip"
+                android:textColor="@color/lightGrey"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/filePermissions"
+                android:gravity="right"
+                android:textColor="@color/lightGrey"
+                android:textSize="13sp"
+                android:textStyle="italic" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
