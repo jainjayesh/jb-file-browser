@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menuAddFolder"
+          android:icon="@drawable/menu_add"
+          android:title="New Folder"/>
+    <item android:id="@+id/menuRefresh"
+          android:icon="@drawable/menu_refresh"
+          android:title="@string/refresh" />
+    <item android:id="@+id/menuPaste"
+          android:icon="@drawable/menu_paste"
+          android:title="@string/paste" />
+    <item android:id="@+id/menuSearch"
+          android:icon="@drawable/menu_search"
+          android:title="@string/search" />
+    <item android:id="@+id/menuAbout"
+          android:icon="@drawable/menu_about"
+          android:title="@string/about" />
+    <item android:id="@+id/menuExitBrowser"
+          android:icon="@drawable/menu_exit"
+          android:title="@string/exit" />
+</menu>
